@@ -24,6 +24,7 @@ func newContext(w http.ResponseWriter, r *http.Request) *Context {
 		Request: r,
 		Method:  r.Method,
 		Path:    r.URL.Path,
+		params:  make(map[string]string),
 	}
 }
 

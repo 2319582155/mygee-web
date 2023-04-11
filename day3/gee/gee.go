@@ -7,7 +7,7 @@ import (
 type HandleFunc func(c *Context)
 
 type Engine struct {
-	route *Route
+	route *router
 }
 
 func New() *Engine {
