@@ -1,3 +1,3 @@
-module mygee/day3
+module mygee-web/day3
 
 go 1.19

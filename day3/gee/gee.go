@@ -11,7 +11,7 @@ type Engine struct {
 }
 
 func New() *Engine {
-	return &Engine{route: newRoute()}
+	return &Engine{route: newRouter()}
 }
 
 func (e *Engine) Get(pattern string, handle HandleFunc) {

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"mygee/gee"
+	"mygee-web/gee"
 	"net/http"
 )
 
